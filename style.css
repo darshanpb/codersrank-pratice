@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  margin-top: 50px;
+}
+header {
+display: flex;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 0px;
+line-height: 50px;
+background-color: #eee;
+}
+header *{
+  display: inline;
+  height: 50px;
+}
+header ul{
+  padding: 0;
+}
+header li{
+  margin-left: 20px;
+}
+section{
+  height: 50vh;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#home .profile-img{
+  width: 300px;
+}
+footer{
+  text-align: center;
+  padding: 50px;
+}
