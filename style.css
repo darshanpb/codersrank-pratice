@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   margin-top: 50px;
+  font-family: sans-serif;
 }
 header {
 display: flex;
@@ -29,11 +30,38 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+
+
 }
 #home .profile-img{
   width: 300px;
+  border-radius: 50px;
 }
 footer{
   text-align: center;
   padding: 50px;
+}
+#home h1{
+  font-size: 3em;
+}
+section h3{
+  font-size: 1.5em;
+}
+section h2{
+  font-size: 2.5em;
+}
+header a{
+  text-decoration: none;
+  color:black;
+}
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
